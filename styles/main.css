@@ -195,3 +195,29 @@ body {
         display: none;
     }
 }
+
+.heading {
+    color: #014153;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 2rem 0;
+}
+.heading--centered {
+    text-align: center;
+}
+
+.heading__pre-text {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.adventures {
+    background-color: rgb(225, 220, 206);
+    background-image: url("../images/adventures/background.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
