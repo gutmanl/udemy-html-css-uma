@@ -224,6 +224,7 @@ body {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+    padding-bottom: 4rem;
 }
 
 .adventures__card-container {
@@ -231,18 +232,18 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: -1rem;
-    margin-right: -1rem;
+    margin: -1rem;
 }
 
 .adventures__card {
     text-align: center;
     background-color: white;
     flex: 0 0 22.33333333rem;
-    height: 40rem;
     margin: 1rem;
     border-radius: 2rem;
     overflow: hidden;
+    padding-bottom: 1.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
 }
 
 .adventures__card-img {
@@ -265,5 +266,6 @@ body {
     text-transform: uppercase;
     text-align: center;
     font-size: 1.25rem;
+    padding-bottom: 1rem;
     margin: 0;
 }
