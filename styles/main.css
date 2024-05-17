@@ -221,3 +221,19 @@ body {
     background-position: 50% 50%;
     background-size: cover;
 }
+
+.adventures__card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.adventures__card {
+    background-color: white;
+    flex: 0 0 22.33333333rem;
+    height: 40rem;
+    margin: 1rem;
+}
