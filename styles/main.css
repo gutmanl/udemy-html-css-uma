@@ -212,6 +212,9 @@ body {
 .heading--centered {
     text-align: center;
 }
+.heading--white {
+    color: white;
+}
 
 .heading__pre-text {
     display: block;
@@ -289,4 +292,11 @@ body {
     font-size: 1rem;
     padding-bottom: 1rem;
     margin: 0;
+}
+
+.story {
+    background-image: url('../images/story/background-mobile.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
