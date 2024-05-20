@@ -221,6 +221,15 @@ body {
     font-size: 1.5rem;
 }
 
+.heading--top-box::before {
+    content: "";
+    display: block;
+    height: 0.125rem;
+    width: 5rem;
+    background-color: #ed6a4e;
+    margin-bottom: 2rem;
+}
+
 .adventures {
     background-color: rgb(225, 220, 206);
     background-image: url("../images/adventures/background.jpg");
@@ -299,4 +308,14 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.story__paragraph {
+    margin: 0;
+    font-size: 1.25rem;
+    color: white;
+    padding-bottom: 1rem;
+    line-height: 1.4em;
 }
