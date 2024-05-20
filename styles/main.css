@@ -311,6 +311,17 @@ body {
     padding-top: 4rem;
     padding-bottom: 5rem;
 }
+@media (min-width: 62em) {
+    .story  {
+        background-image: url('../images/story/background-desktop.jpg');
+    }
+}
+
+@media (min-width: 62em) {
+    .story__inner {
+        padding-left: calc(50% + 2rem);
+    }
+}
 
 .story__paragraph {
     margin: 0;
