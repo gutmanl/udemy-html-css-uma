@@ -204,7 +204,7 @@ body {
     color: #014153;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     padding: 2rem 0;
@@ -224,8 +224,8 @@ body {
 .heading--top-box::before {
     content: "";
     display: block;
-    height: 0.125rem;
-    width: 5rem;
+    height: 0.25rem;
+    width: 7.5rem;
     background-color: #ed6a4e;
     margin-bottom: 2rem;
 }
@@ -314,19 +314,21 @@ body {
 @media (min-width: 62em) {
     .story  {
         background-image: url('../images/story/background-desktop.jpg');
+        background-size: 110% auto;
+        background-position: 100% 50%;
     }
 }
 
 @media (min-width: 62em) {
     .story__inner {
-        padding-left: calc(50% + 2rem);
+        padding-left: 50%;
     }
 }
 
 .story__paragraph {
     margin: 0;
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: white;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
     line-height: 1.4em;
 }
