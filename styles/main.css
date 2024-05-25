@@ -367,3 +367,33 @@ body {
     margin-bottom: 0;
 }
 
+.parts__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 0.125rem solid #ed6a4e;
+}
+
+.parts__item {
+    flex: 1 0 20rem;
+    padding: 1.5rem;
+    border: 0.125rem solid #ed6a4e;
+}
+
+.parts__item-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 999999999px;
+    background-color: #ed6a4e;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parts__item-heading {
+    margin: 0;
+    font-size: 1rem;
+    padding-top: 1.5rem;
+    color: #014153;
+    text-align: center;
+}
+
