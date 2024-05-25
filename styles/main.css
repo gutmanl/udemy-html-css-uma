@@ -361,17 +361,19 @@ body {
     line-height: 1.4em;
     max-width: 35rem;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0 auto;
+}
+
+.parts__items-outer {
+    overflow: hidden;
+    margin-bottom: 2.5rem;
 }
 
 .parts__items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 0.125rem solid #ed6a4e;
+    margin: -0.125rem;
 }
 
 .parts__item {
