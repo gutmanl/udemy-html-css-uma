@@ -416,6 +416,7 @@ body {
 
 .guide {
     height: 40rem;
+    padding-top: 10rem;
 
     background-image:
             linear-gradient(90deg, rgba(36, 161, 161, 0.25), rgba(36, 161, 161, 0.25)),
@@ -441,6 +442,7 @@ body {
 
 @media (min-width: 62em) {
     .guide {
+        padding-top: 0;
         background-size:
                 60% 100%,
                 60% 100%,
@@ -451,6 +453,12 @@ body {
                 100% 50%,
                 100% 50%,
                 0 50%;
+    }
+}
+
+@media (min-width: 62em) {
+    .guide__container {
+        padding-left: 40%;
     }
 }
 
