@@ -444,10 +444,13 @@ body {
     .guide {
         padding-top: 0;
         background-size:
-                60% 100%,
-                60% 100%,
-                60% 100%,
-                40% auto;
+                /* Using the calc feature here and for the padding below
+                allows to make use of the center line and ensure consistent alignment
+                between the background and the elements */
+                calc(50% + 10rem) 100%,
+                calc(50% + 10rem) 100%,
+                calc(50% + 10rem) 100%,
+                calc(50% - 10rem) 100%;
         background-position:
                 100% 50%,
                 100% 50%,
@@ -458,7 +461,7 @@ body {
 
 @media (min-width: 62em) {
     .guide__container {
-        padding-left: 40%;
+        padding-left: calc(50% - 10rem);
     }
 }
 
