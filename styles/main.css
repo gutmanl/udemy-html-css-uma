@@ -231,6 +231,15 @@ body {
     margin-bottom: 2rem;
 }
 
+.heading--bottom-box::after {
+    content: "";
+    display: block;
+    height: 0.25rem;
+    width: 7.5rem;
+    background-color: #ed6a4e;
+    margin-top: 2rem;
+}
+
 .adventures {
     background-color: rgb(225, 220, 206);
     background-image: url("../images/adventures/background.jpg");
@@ -463,5 +472,14 @@ body {
     .guide__container {
         padding-left: calc(50% - 10rem);
     }
+}
+
+.guide__paragraph {
+    margin: 0;
+    font-size: 1rem;
+    color: white;
+    padding-bottom: 1.5rem;
+    line-height: 1.4em;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
 }
 
