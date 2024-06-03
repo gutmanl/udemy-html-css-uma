@@ -441,11 +441,9 @@ body {
 
 @media (min-width: 62em) {
     .guide {
-        height: 20rem;
-
         background-size:
                 60% 100%,
-                60% auto,
+                60% 100%,
                 60% 100%,
                 40% auto;
         background-position:
