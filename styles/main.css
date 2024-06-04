@@ -522,10 +522,23 @@ body {
     margin: 0;
     padding: 0;
     color: #014153;
-    list-style-position: inside;
+    list-style-type: none;
 }
 
 .skills__card-list-item {
     padding-bottom: 1rem;
+}
+.skills__card-list-item::before {
+    content: "";
+    display: inline-block;
+
+    background-color: currentColor;
+    width: 0.25rem;
+    height: 0.25rem;
+    border-radius: 999999999px;
+    margin-right: 0.5em;
+
+    position: relative;
+    top: -0.15em;
 }
 
