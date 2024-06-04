@@ -483,6 +483,7 @@ body {
 
 .skills {
     background-color: rgb(225, 220, 206);
+    padding-bottom: 3rem;
 }
 
 .skills__card-container {
