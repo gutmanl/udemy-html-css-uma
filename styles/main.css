@@ -216,6 +216,9 @@ body {
     color: white;
     text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
 }
+.heading--small {
+    font-size: 1.5rem;
+}
 
 .heading__pre-text {
     display: block;
@@ -493,7 +496,7 @@ body {
 .skills__card {
     background-color: white;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 2rem;
     flex: 0 0 22.333333333rem;
     margin: 1rem;
     overflow: hidden;
@@ -513,5 +516,16 @@ body {
     fill: #014153;
     width: 1em;
     height: 1em;
+}
+
+.skills__card-list {
+    margin: 0;
+    padding: 0;
+    color: #014153;
+    list-style-position: inside;
+}
+
+.skills__card-list-item {
+    padding-bottom: 1rem;
 }
 
