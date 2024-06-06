@@ -546,18 +546,29 @@ body {
 .quote {
     background-color: #014153;
     color: #ed6a4e;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .quote__figure {
     margin: 0;
-    text-transform: uppercase;
-    font-weight: bold;
 }
 
 .quote__blockquote {
-    margin: 0;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 25em;
+}
+
+.quote__figcaption {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.075em;
 }
 
 .quote__paragraph {
