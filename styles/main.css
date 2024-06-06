@@ -401,8 +401,8 @@ body {
 }
 
 .parts__item-icon-container {
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 999999999px;
     background-color: #ed6a4e;
     margin-left: auto;
@@ -509,7 +509,7 @@ body {
     background-color: #ed6a4e;
     border-radius: 99999999px;
     padding: 0.5rem;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .skills__card-icon {
@@ -546,11 +546,14 @@ body {
 .quote {
     background-color: #014153;
     color: #ed6a4e;
-    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .quote__figure {
     margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .quote__blockquote {
