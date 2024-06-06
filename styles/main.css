@@ -543,3 +543,28 @@ body {
     top: -0.15em;
 }
 
+.quote {
+    background-color: #014153;
+    color: #ed6a4e;
+    margin: 0;
+}
+
+.quote__figure {
+    margin: 0;
+}
+
+.quote__blockquote {
+    margin: 0;
+}
+
+.quote__paragraph {
+    margin: 0;
+}
+
+.quote__paragraph::before {
+    content: "„"
+}
+.quote__paragraph::after {
+    content: "“"
+}
+
