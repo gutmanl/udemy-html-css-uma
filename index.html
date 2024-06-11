@@ -456,9 +456,18 @@
         </div>
         <div class="contact__form">
             <form action="#" class="form" method="GET">
-                <input type="text" class="form__input" placeholder="Please enter your name...">
-                <input type="email" class="form__input" placeholder="Please enter your email...">
-                <textarea class="form__input" placeholder="Please enter your message..."></textarea>
+                <div class="form__input-container">
+                    <input type="text" class="form__input" placeholder="Please enter your name...">
+                </div>
+                <div class="form__input-container">
+                    <input type="email" class="form__input" placeholder="Please enter your email...">
+                </div>
+                <div class="form__input-container">
+                    <textarea class="form__input form__input-textarea" placeholder="Please enter your message..."></textarea>
+                </div>
+                <div class="form__input-container">
+                    <input type="submit" class="button button--primary" value="Submit message">
+                </div>
             </form>
         </div>
     </div>

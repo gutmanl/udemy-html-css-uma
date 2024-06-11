@@ -34,9 +34,12 @@ body {
 }
 
 .button {
+    -webkit-appearance: none;
+    appearance: none;
     color: white;
     padding: 0.75rem 2rem;
     border-radius: 9999999px;
+    border: none;
     background-color: #ed6a4e;
     font-weight: bold;
     text-decoration: none;
@@ -59,8 +62,20 @@ body {
     background-color: rgba(255, 255, 255, 0.25);
 }
 
+.button--primary {
+    background-color: #014153;
+}
+.button--primary:hover {
+    background-color: #013744;
+}
+
 .text-primary {
     color: #ed6a4e;
+}
+
+.form__input-container {
+    padding-bottom: 0.5rem;
+    text-align: center;
 }
 
 input.form__input[type="text"],
@@ -73,15 +88,23 @@ textarea.form__input
 }
 
 .form__input {
+    margin: 0;
     font-family: inherit;
     font-size: 1rem;
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem;
     background-color: white;
     border: 0.125rem solid rgb(200, 200, 200);
+    border-radius: 0.5rem;
+    width: 20rem;
+    resize: none;
 }
 .form__input:focus {
     border: 0.125rem solid rgb(150, 150, 150);
     outline: none;
+}
+
+.form__input-textarea {
+    height: 6rem;
 }
 
 .header {
