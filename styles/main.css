@@ -74,7 +74,7 @@ body {
 }
 
 .form__input-container {
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     text-align: center;
 }
 
@@ -631,20 +631,33 @@ textarea.form__input
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
+@media (min-width: 62em) {
+    .contact::after {
+        content: "";
+        display: block;
+        background-color: #014153;
+        width: 7.5rem;
+        height: 0.25rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+    }
+}
 
 .contact__logo {
     opacity: 0.5;
     display: block;
-    width: 20rem;
+    width: 18rem;
     margin-left: auto;
     margin-right: auto;
 }
 
 .contact__cta {
     margin: 0;
-    padding-top: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
     font-weight: normal;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     text-align: center;
 }
@@ -658,7 +671,11 @@ textarea.form__input
     color: #014153;
     text-align: center;
     padding: 0.5rem 1rem;
-    font-size: 2.5rem;
+    font-size: 1.75rem;
+    text-decoration: none;
+}
+.contact__phone:hover {
+    text-decoration: underline;
 }
 
 .contact__form {
@@ -708,6 +725,16 @@ textarea.form__input
         rgba(255, 255, 255, 0.5) calc(50% - 0.125rem),
         rgba(255, 255, 255, 0.5) calc(50% + 0.125rem),
         transparent calc(50% + 0.125rem));
+    }
+}
+
+.contact__form-submit-container {
+    text-align: center;
+}
+
+@media (min-width: 62em) {
+    .contact__form-submit-container {
+        text-align: right;
     }
 }
 
