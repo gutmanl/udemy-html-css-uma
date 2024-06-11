@@ -660,3 +660,31 @@ textarea.form__input
     font-size: 2.5rem;
 }
 
+@media (min-width: 62em) {
+    .contact__info, .contact__form {
+        flex: 0 0 50%
+    }
+}
+
+.contact__info::after {
+    content: "";
+    display: block;
+    width: 7.5rem;
+    height: 0.25rem;
+    background-color: #014153;
+    margin: 3rem auto;
+}
+@media (min-width: 62em) {
+    .contact__info::after {
+        content: none;
+    }
+}
+
+@media (min-width: 62em) {
+    .contact__container {
+        display: flex;
+        flex-direction: row;
+
+    }
+}
+
