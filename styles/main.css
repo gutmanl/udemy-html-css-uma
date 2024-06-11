@@ -95,7 +95,7 @@ textarea.form__input
     background-color: white;
     border: 0.125rem solid rgb(200, 200, 200);
     border-radius: 0.5rem;
-    width: 20rem;
+    width: 100%;
     resize: none;
 }
 .form__input:focus {
@@ -629,6 +629,7 @@ textarea.form__input
 .contact {
     background-color: #ed6a4e;
     padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .contact__logo {
@@ -660,9 +661,22 @@ textarea.form__input
     font-size: 2.5rem;
 }
 
+.contact__form {
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (min-width: 62em) {
     .contact__info, .contact__form {
         flex: 0 0 50%
+    }
+    .contact__form {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        max-width: initial;
+        margin-left: initial;
+        margin-right: initial;
     }
 }
 
@@ -680,11 +694,20 @@ textarea.form__input
     }
 }
 
+
 @media (min-width: 62em) {
     .contact__container {
         display: flex;
         flex-direction: row;
 
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        background-image: linear-gradient(90deg,
+        transparent calc(50% - 0.125rem),
+        rgba(255, 255, 255, 0.5) calc(50% - 0.125rem),
+        rgba(255, 255, 255, 0.5) calc(50% + 0.125rem),
+        transparent calc(50% + 0.125rem));
     }
 }
 
