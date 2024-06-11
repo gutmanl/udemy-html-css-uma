@@ -63,6 +63,27 @@ body {
     color: #ed6a4e;
 }
 
+input.form__input[type="text"],
+input.form__input[type="email"],
+input.form__input[type="password"],
+textarea.form__input
+{
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.form__input {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+    background-color: white;
+    border: 0.125rem solid rgb(200, 200, 200);
+}
+.form__input:focus {
+    border: 0.125rem solid rgb(150, 150, 150);
+    outline: none;
+}
+
 .header {
     padding-bottom: 2rem;
     background-size: cover;
