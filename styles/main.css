@@ -738,3 +738,22 @@ textarea.form__input
     }
 }
 
+.footer {
+    background-color: #ed6a4e;
+    padding-bottom: 3rem;
+}
+
+.footer__text {
+    margin: 0;
+    text-align: center;
+    color: #014153;
+}
+
+.footer__link {
+    color: #014153;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
